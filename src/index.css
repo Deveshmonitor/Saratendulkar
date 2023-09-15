@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    background-color: #f9f6ed;
+}
+.headtext, .head2, .head3, .head4, .head5 {
+    font-family: 'Kameron', serif;
+}
+
+.collection{
+    background-image: url("/img/collection.jpg");
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s; 
+
+}
+.parent{
+    overflow: hidden;
+    position: relative;
+
+}
+.parent:hover .collection{
+    transform: scale(1.2);
+}
+.parent:hover .child{
+    transform: scale(1.2);
+}
+.arrow:hover .arrow1{
+    transform: scale(1.5);
+    cursor: pointer;
+    padding-left: 5px;
+    transition: all .5s; 
+}
+.child{
+    transition: all .5s; 
+}
+.product{
+    background-image: url("/img/lib.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.product1{
+    background-image: url("/img/lib4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.product2{
+    background-image: url("/img/march.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sara{
+    background-image: url("/img/sara1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sarabg{
+    background-image: url("/public/img/sara.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.sarabgg{
+    background-image: url("/public/img/sara2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
